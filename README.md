@@ -15,8 +15,8 @@ in terms of the time evolution of the PDF $f_{\boldsymbol{Y}}$ for the random va
 $$
 \begin{equation}
     \frac{\partial f_{\boldsymbol{Y}} }{\partial t} + \frac{\partial }{\partial z} \left( w f_{\boldsymbol{Y}} \right) =   
-    - \frac{\partial }{\partial b} \left( \left[ -w + Pe^{-1} \mathbb{E}_{\boldsymbol{Y}}[ \Delta B ] \right] f_{\boldsymbol{Y}} \right) 
-    - \frac{\partial }{\partial w} \left( \left[ \mathbb{E}_{\boldsymbol{Y}}[ Ri_B B -\nabla_Z P] +  \mathbb{E}_{\boldsymbol{Y}}[ \frac{W}{\langle |\boldsymbol{U}|^2 \rangle}] + Re^{-1} \mathbb{E}_{\boldsymbol{Y}}[ \Delta W ] \right] f_{\boldsymbol{Y}} \right). %
+    - \frac{\partial }{\partial b} \left( \left[ -w + Pe^{-1} E_{\boldsymbol{Y}}[ \Delta B ] \right] f_{\boldsymbol{Y}} \right) 
+    - \frac{\partial }{\partial w} \left( \left[ E_{\boldsymbol{Y}}[ Ri_B B -\nabla_Z P] +  E_{\boldsymbol{Y}}[ \frac{W}{\langle |\boldsymbol{U}|^2 \rangle}] + Re^{-1} E_{\boldsymbol{Y}}[ \Delta W ] \right] f_{\boldsymbol{Y}} \right).
 \end{equation}
 $$
 
