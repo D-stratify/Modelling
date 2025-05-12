@@ -4,7 +4,7 @@ This set of notebooks breaks the problem of modelling the *Deterministic* Boussi
 
 $$
 \begin{align}
-  \frac{D \boldsymbol{U} }{Dt} &= -\nabla P + Ri_B \; B \boldsymbol{\hat{z}} + Re^{-1} \Delta \boldsymbol{U} + \boldsymbol{U}/\langle |\boldsymbol{U}|^2 \rangle, \\
+  \frac{D \boldsymbol{U} }{Dt} &= -\nabla P + Ri_B  B \boldsymbol{\hat{z}} + Re^{-1} \Delta \boldsymbol{U} + \boldsymbol{U}/\langle |\boldsymbol{U}|^2 \rangle, \\
     \frac{D B }{Dt}              &= -W + Pe^{-1} \Delta B, \\  
     \nabla \cdot \boldsymbol{U}  &= 0, 
 \end{align}
